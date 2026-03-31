@@ -1,0 +1,22 @@
+git init
+$ git init
+Initialized empty Git repository in C:/Users/Leo/Desktop/trabajos/trabajo_stephanie-opazo/n4/.git/
+/* se inicia el repositorio de la carpeta de origen.
+git remote add origin git@github.com:stephyopazo2212-cmyk/comandos_git_ejercicio.git
+/*se confirma la carpeta a donde enviar los archivos
+git add .
+/* se confirma la preparacion de archivos
+git commit -m "primer commit : inicio del proyecto"
+/*[main (root-commit) 18aa36d] primer commit : inicio del proyecto
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos_git.txt
+ git push -u origin main 
+ /* nos sube el archivo a la nuble 
+  git push -u origin main 
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 243 bytes | 243.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:stephyopazo2212-cmyk/comandos_git_ejercicio.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
